@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap');
+
+:root{
+    --primary: #A129D6;
+    --secondary: #0083FF;
+    --danger: #CF1D00;
+    --dark : #211825;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Tajawal' ,sans-serif;
+    direction: rtl;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.container{
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.error{
+    border-color: red !important;
+}

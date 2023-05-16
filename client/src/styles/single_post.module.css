@@ -1,0 +1,40 @@
+.post_detailes {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.post_detailes .top_sect {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post_detailes .top_sect p {
+    direction: ltr;
+    font-size: 14px;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.post_detailes .top_sect h3 {
+    color: var(--primary);
+}
+
+.med_sect {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.comment_sect {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.comment_sect h3 {
+    text-align: center;
+    color: var(--primary);
+    font-size: 22px;
+}

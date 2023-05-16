@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, .2);
+}
+.container {
+    width: 80%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 span {
+    color: var(--primary);
+}
+.p_link{
+    color: var(--secondary);
+    font-weight: bold;
+}
